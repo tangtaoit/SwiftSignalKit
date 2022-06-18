@@ -1,3 +1,4 @@
+#import "SignalKitTest.h"
 
 @implementation SignalKitTest
 
