@@ -9,6 +9,9 @@ Pod::Spec.new do |spec|
   spec.module_name  = 'SwiftSignalKit'
   spec.header_dir   = 'SwiftSignalKit'
 
+  spec.pod_target_xcconfig = {
+      'DEFINES_MODULE' => 'YES'
+  }
 
   spec.ios.deployment_target = '10.0'
   spec.platform     = :ios, '10.0'
