@@ -1,0 +1,4 @@
+
+@implementation SignalKitTest
+
+@end
