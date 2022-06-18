@@ -9,15 +9,15 @@ Pod::Spec.new do |spec|
   spec.module_name  = 'SwiftSignalKit'
   spec.header_dir   = 'SwiftSignalKit'
 
-  spec.ios.deployment_target = '10.0'
-  spec.platform     = :ios, '10.0'
+  spec.ios.deployment_target = '9.0'
+  spec.platform     = :ios, '9.0'
   spec.swift_version = '5.0'
-  spec.source_files = 'Source/*'
-  spec.pod_target_xcconfig = {
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-      'DEFINES_MODULE' => 'YES'
-  }
-  # spec.public_header_files='Source/*.h'
+  spec.source_files = 'Source/**/*'
+  # spec.pod_target_xcconfig = {
+  #     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+  #     'DEFINES_MODULE' => 'YES'
+  # }
+  spec.public_header_files='Source/**/*.h'
   # spec.pod_target_xcconfig = {
   #   'DEFINES_MODULE' => 'NO'
   # }
