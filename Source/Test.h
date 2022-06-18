@@ -1,5 +1,0 @@
-
-@interface SignalKitTest : NSObject
-
-
-@end
