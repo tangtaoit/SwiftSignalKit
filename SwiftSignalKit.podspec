@@ -16,8 +16,4 @@ Pod::Spec.new do |spec|
   # spec.compiler_flags="-fno-exceptions"
   spec.source_files = 'Source/**/*.swift'
   
-  spec.pod_target_xcconfig = {
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-      'DEFINES_MODULE' => 'YES'
-  }
 end
